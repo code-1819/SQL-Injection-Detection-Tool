@@ -27,8 +27,9 @@ This tool is designed to detect SQL injection vulnerabilities in web forms on a 
 3. (Optional) Set up a virtual environment:
 
     ```bash
-    virtualenv venv
-    source venv/bin/activate  # On Windows, use venv\Scripts\activate
+    python3 -m venv myenv
+    
+    source myenv/bin/activate  # On Windows, use venv\Scripts\activate
     ```
 
 4. To deactivate the virtual environment do this:
